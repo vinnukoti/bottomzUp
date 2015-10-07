@@ -150,8 +150,8 @@ class tableviewclass: UIViewController, UITableViewDataSource, UITableViewDelega
                             {
                                 return s.substringFromIndex(advance(s.startIndex, start - 1)).substringToIndex(advance(s.startIndex, length))
                             }
-                            println("SUBSTRING    " + PartOfString(distance, 1, 2))
-                            distance = PartOfString(distance, 1, 2)
+                            println("SUBSTRING    " + PartOfString(distance, 1, 1))
+                            distance = PartOfString(distance, 1, 1)
                             fstobj1.distance = distance + "      KMS"
                             
                         }
